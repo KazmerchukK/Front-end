@@ -1,0 +1,70 @@
+Here the list of task for PR 7 Async programming in JS
+
+Task 1.
+
+The code snippet below is synchronous. It calls callback1 one time and callback2 three times. You must modify this code to make it asynchronous with the following rules:
+
+callback1 must be called only one time, after 2 seconds.
+callback2 must be called three times with an interval of 1 second.
+
+Hint: setTimeout, setInterval
+
+function main(callback1, callback2) {
+    callback1();
+
+    callback2();
+    callback2();
+    callback2();
+}
+
+Task 2
+
+You must modify the code below based on the following rules:
+
+The function job must return a promise object (you are in a NodeJS environment, you can use new Promise)
+The promise must resolve itself 2 seconds after the call to job and must provide hello world in the data
+
+function main() {
+    return 'hello world';
+}
+
+Task 3
+
+Your function receives a parameter data. You must modify the code below based on the following rules:
+
+Your function must always return a promise
+If data is not a number, return a promise rejected instantly and give the data "error" (in a string)
+If data is an odd number, return a promise resolved 1 second later and give the data "odd" (in a string)
+If data is an even number, return a promise rejected 2 seconds later and give the data "even" (in a string)
+
+function main(data) {
+    return something;
+}
+
+Task 4
+
+Lets imagine you need to cook following:
+1) a cup of tea. you need to boil water (20 sec), add tea pack (5 sec), add sugar (2sec)
+2) make a sandwich, slice bread (10 sec) and sausage (10 sec), add butter (5 second)
+
+The main cookBreakfast function takes ingredients as a param, so you need to check that all ingredients were added.
+if something missed you need to handle error. Probably you can complete cooking if you have ran out of sugar? :)
+Completion of each step need to be confirmed with message in console. for example 
+start boiling
+water has been boiled
+adding sugar
+etc...
+also handle an arror in case of missed bread.. new Error("There is no bread for sandwich. cannot cook breakfast for you");
+
+
+function cookBreakfast(teapack, sugar, bread, sausage, butter){
+    //here your code
+    //example
+    //let makingTeaPromise = boilWater().then(addTeapack())....
+    //let makingSandwich = 
+    // waiting for all task completion and only if everything is fine resolve cookBreakfast promise.
+}
+
+
+cookBreakfast("Lipton", null, ...)
+
