@@ -5,9 +5,11 @@
 -->
 
 <html>
+
 <head>
     <title></title>
 </head>
+
 <body>
     <script>
         function sum(arr) {
@@ -26,18 +28,19 @@
             return total;
         }
         var result = sum([1, 2, null, undefined, 3]);
-        alert(result); // output "6"
+        alert(result); // 6
 
         result = sum({ "0": 5, "1": 10, "2": 15, length: 3 });
-        alert(result); // output 30
-
-        result = sum([1, 2, 3, "string"]); 
+        alert(result); // 30
+        result = sum([1, 2, 3, "string"]);
+        
         try {
-            result = sum([1, 2, 3, "string"]); 
-            alert(result); 
+            result = sum([1, 2, 3, "string"]);
+            alert(result);
         } catch (error) {
             alert(error.message);
         }
     </script>
 </body>
+
 </html>

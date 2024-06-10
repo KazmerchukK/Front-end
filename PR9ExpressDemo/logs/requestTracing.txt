@@ -1,0 +1,50 @@
+20240606	18:15:56	4312ddef-7990-4915-9678-ec662b1bc4ac	GET	undefined	/
+
+20240606	18:15:57	6e16237b-4dbe-4940-95ba-b233095d8658	GET	undefined	/favicon.ico
+
+20240606	18:15:59	cd018a0c-4260-4001-a415-6a1648eb21bf	GET	undefined	/about
+
+20240606	18:16:02	770e33cb-bf35-48dc-8f7b-027c7f7b57bd	GET	undefined	/
+
+20240606	18:16:02	c8be33e9-6932-4b5b-91fd-2a2252727d35	GET	undefined	/Products
+
+20240606	18:16:03	a0bf318a-e0e0-44bf-86b2-fd001b122aac	GET	undefined	/api/products
+
+20240606	18:16:05	0e93b898-cef4-4dfc-9699-9d8769f4e64c	GET	undefined	/create.html
+
+20240606	18:16:05	eb4c5888-d75f-42d2-956f-ba9d85e32c34	GET	undefined	/PR9ExpressDemo/public/scripts/create.js
+
+20240606	18:16:17	18fc85e2-47dd-49e6-9095-8950723cba3c	GET	undefined	/create.html?name=Pen
+
+20240606	18:16:17	58b9f028-ff9a-4a3e-9f08-cf96015a3512	GET	undefined	/PR9ExpressDemo/public/scripts/create.js
+
+20240606	18:16:21	c846e680-0fe2-4b31-b0bd-f06fdf4ba432	GET	undefined	/create.html?name=Pen
+
+20240606	18:16:22	a13e3504-013d-499b-ae4f-ea54d4d427ec	GET	undefined	/PR9ExpressDemo/public/scripts/create.js
+
+20240606	18:16:37	09c58d59-a4c4-4108-9421-b72ce459a6e6	GET	undefined	/create.html?name=A
+
+20240606	18:16:37	f51420fd-8856-41bb-897d-31ee39c3280e	GET	undefined	/PR9ExpressDemo/public/scripts/create.js
+
+20240606	18:17:00	c50e3c52-1dd7-442f-85a7-2f0dff474f01	PUT	http://localhost:8080	/api/products/1
+
+20240606	18:17:00	0aacfb9f-856d-48a5-b6ea-73220fc82443	GET	undefined	/products
+
+20240606	18:17:00	d45dd355-39d9-49c9-9d77-9c809ccd3f28	GET	undefined	/api/products
+
+20240606	18:17:05	86cc2190-1eb5-41fb-9396-a473e08a7f9c	DELETE	http://localhost:8080	/api/products/4
+
+20240606	18:17:05	2f25dfeb-aeb4-4cb0-8884-b6f1a136b31d	GET	undefined	/products
+
+20240606	18:17:05	a86c9099-995e-45ef-ae73-ca56bb322533	GET	undefined	/api/products
+
+20240606	18:17:08	55c9b79c-6a0c-4616-8a9e-984b84e338d3	GET	undefined	/create.html
+
+20240606	18:17:08	46bc4904-9cab-4a75-8034-86bede89bba1	GET	undefined	/PR9ExpressDemo/public/scripts/create.js
+
+20240606	18:19:12	ebcf092a-4f92-4cbf-ac63-572ad2e3cf7a	GET	undefined	/
+
+20240606	18:19:12	d482eb93-c744-46ea-9919-531fe4a55b3e	GET	undefined	/favicon.ico
+
+20240606	18:19:38	9a06bd25-f754-4f41-bbfd-9a28fa28cb56	GET	undefined	/favicon.ico
+
